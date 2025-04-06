@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍭 SUGAR:404 – A Surreal Sugar-Packed Game (418 Hackathon)
 
-## Getting Started
+Welcome to **SUGAR:404**, a chaotic journey through the sugarverse built for the **418 Hackathon** at Mahindra University. This browser-based game takes the hackathon theme "SUGAR" to bizarre, twisted extremes.
 
-First, run the development server:
+---
+
+## 🕹️ Gameplay Overview
+
+SUGAR:404 is a 5-level surreal experience exploring the concept of sugar through strange physics, chaotic puzzles, and glitchy hallucinations. Each level is unique in mechanic, soundscape, and artistic direction.
+
+---
+
+## 🌪️ LEVELS
+
+### 🧪 1. Sugar Abyss
+Click to stay afloat in a syrup ocean. Dodge sugar cubes and syrup bubbles. Just float.
+
+### 🍬 2. Candy Core
+Stabilize a melting candy reactor using reflex puzzles and precision.
+
+### 🌀 3. Sugar Spiral
+Endless spiral runner with sugar shards and licorice traps in a dizzying vortex.
+
+### 🍯 4. Gum Drop Cavity
+Sticky physics puzzles inside a collapsing gum cave. Use bounce mechanics to escape.
+
+### 🪞 5. Mirror Maze
+A meta-glitch level with fake reflections, looping rooms, and a forbidden 418 portal.
+
+---
+
+## 🧰 Built With
+
+- **Next.js** (App Router)
+- **Tailwind CSS**
+- **Framer Motion**
+- **Lottie Animations**
+- **HTML5 Audio**
+
+---
+
+## ⚙️ Getting Started
 
 ```bash
+git clone https://github.com/your-username/sugar-404.git
+cd sugar-404
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
