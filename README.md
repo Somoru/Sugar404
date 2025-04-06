@@ -42,7 +42,7 @@ A meta-glitch level with fake reflections, looping rooms, and a forbidden 418 po
 ## ⚙️ Getting Started
 
 ```bash
-git clone https://github.com/your-username/sugar-404.git
-cd sugar-404
+git clone https://github.com/Somoru/sugar-404.git
+cd sugar404
 npm install
 npm run dev
