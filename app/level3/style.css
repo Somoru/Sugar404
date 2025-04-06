@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+  overflow: hidden;
+}
+
+.spiral-bg {
+  background: url('hurricane.png') center/cover no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* Rotating vortex layer */
+.vortex-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform-origin: center center;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Trap Donuts */
+/* 💣 Fake Traps (Contrasting color) */
+.fake-trap {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 0, 0.15); /* semi-transparent yellow base */
+  border: 2px dashed #ffeb3b;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #ffeb3baa;
+  z-index: 2;
+}
+
+
+/* Target Zone */
+/* 🎯 Target Win Zone (centered green ring) */
+.target-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px dashed #00ff99;
+  background: rgba(0, 255, 153, 0.05);
+  box-shadow: 0 0 12px #00ff99aa;
+  z-index: 3;
+}
+
+
+/* Donut Player */
+.player {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px #fff4;
+  z-index: 4;
+}
+
+/* Invert Status */
+.invert-tag {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #4a148c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 0 0 10px #0008;
+  z-index: 5;
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #4527a0ee;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  z-index: 10;
+  animation: fade 0.5s ease;
+  box-shadow: 0 0 20px #7c4dff;
+}
+
+.overlay h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.overlay button {
+  padding: 12px 26px;
+  background: #ff8a65;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 0 10px #ff7043;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translate(-50%, -40%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}

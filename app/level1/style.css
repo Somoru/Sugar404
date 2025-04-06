@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+body {
+  font-family: 'Potta One', cursive;
+  margin: 0;
+  background: black;
+}
+
+.syrup-bg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(270deg, #f9a8d4, #fcd34d, #f472b6, #fde68a);
+  background-size: 600% 600%;
+  animation: syrupMove 30s ease infinite;
+  overflow: hidden;
+}
+
+@keyframes syrupMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.flash-red {
+  animation: flash 0.2s;
+}
+
+@keyframes flash {
+  0% { background-color: rgba(255, 0, 0, 0.3); }
+  100% { background-color: transparent; }
+}
+
+.player {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  animation: float 2s ease-in-out infinite;
+  background: #fff8;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.sugar-cube {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url('sugar.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+  box-shadow: 0 0 4px #0005;
+}
+
+.candy {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background: pink;
+  border: 2px solid #ff66aa;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #ffb7dd;
+}
+
+.hud {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: white;
+  font-weight: bold;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px 18px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #fff4;
+  z-index: 20;
+}
+
+.health-bar {
+  margin-top: 6px;
+  width: 160px;
+  height: 12px;
+  background: #fff3;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.health {
+  height: 100%;
+  background: red;
+  transition: width 0.3s;
+}
+
+.game-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000000cc;
+  color: white;
+  padding: 30px;
+  border-radius: 16px;
+  z-index: 50;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.game-overlay button {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px 20px;
+  background: #f37777;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
