@@ -34,8 +34,6 @@ A meta-glitch level with fake reflections, looping rooms, and a forbidden 418 po
 - **Next.js** (App Router)
 - **Tailwind CSS**
 - **Framer Motion**
-- **Lottie Animations**
-- **HTML5 Audio**
 
 ---
 
