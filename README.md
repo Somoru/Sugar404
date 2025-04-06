@@ -21,8 +21,8 @@ Stabilize a melting candy reactor using reflex puzzles and precision.
 ### 🌀 3. Sugar Spiral
 Endless spiral runner with sugar shards and licorice traps in a dizzying vortex.
 
-### 🍯 4. Gum Drop Cavity
-Sticky physics puzzles inside a collapsing gum cave. Use bounce mechanics to escape.
+### 🧠 4. Focus Flow
+Glide your candy mind along a glowing sugar beam. Avoid bouncing distractions. Stay centered. Stay sharp.
 
 ### 🪞 5. Mirror Maze
 A meta-glitch level with fake reflections, looping rooms, and a forbidden 418 portal.
